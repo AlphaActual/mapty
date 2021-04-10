@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 
 
 
@@ -37,7 +37,7 @@ class Workout {
         const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
         const date = new Date(this.date); // convert date string stored in miliseconds to object so to extract month and day
         
-        this.description = `${this.type[0].toUpperCase()}${this.type.slice(1)} ${this.distance} km on ${months[date.getMonth()]} ${date.getDate()}. ${date.getHours()}:${date.getMinutes()}`;
+        this.description = `${this.type[0].toUpperCase()}${this.type.slice(1)} ${this.distance} km on ${months[date.getMonth()]} ${date.getDate()} ${date.getHours()}:${date.getMinutes()}`;
         
     }
 }
