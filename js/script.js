@@ -385,8 +385,14 @@ class App {
     }
     _renderWorkoutMarker(workout){
         
+         // custom icon
+        const maptyIcon = L.icon({
+            iconUrl: 'icon.png',
+            iconSize: [50, 58],
+            iconAnchor: [24, 3]
+        });
         // create marker
-       const layer = L.marker(workout.coords).addTo(this.#map).bindPopup(L.popup({
+       const layer = L.marker(workout.coords, {icon:maptyIcon}).addTo(this.#map).bindPopup(L.popup({
             maxWidth: 250,
             minWidth: 100,
             autoClose: false,
