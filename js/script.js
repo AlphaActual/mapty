@@ -387,7 +387,7 @@ class App {
         // custom icon
         const maptyIcon = L.icon({
             iconUrl: 'icon.png',
-            iconSize: [50, 58],
+            iconSize: [50, 55],
             iconAnchor: [24, 3]
         });
         // create marker
