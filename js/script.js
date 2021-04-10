@@ -387,7 +387,7 @@ class App {
         
          // custom icon
         const maptyIcon = L.icon({
-            iconUrl: 'icon.png',
+            iconUrl: '.icon.png',
             iconSize: [50, 58],
             iconAnchor: [24, 3]
         });
