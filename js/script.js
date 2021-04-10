@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 
 
 
@@ -384,10 +384,9 @@ class App {
        
     }
     _renderWorkoutMarker(workout){
-        
-         // custom icon
+        // custom icon
         const maptyIcon = L.icon({
-            iconUrl: '.icon.png',
+            iconUrl: 'icon.png',
             iconSize: [50, 58],
             iconAnchor: [24, 3]
         });
